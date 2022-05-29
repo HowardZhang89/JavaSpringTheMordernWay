@@ -4,8 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
+import com.in28minutes.com.basics.springin5steps.basic.BinarySearchImpl;
+
 @SpringBootApplication
-public class SpringIn5StepsApplication {
+public class SpringIn5StepsBasicApplication {
 
 	// What are the beans?
 	// What are the dependencies of a bean?
@@ -15,7 +17,7 @@ public class SpringIn5StepsApplication {
 		//BinarySearchImpl binarySearch = new BinarySearchImpl(new QuickSortAlgorithm());
 		
 		ApplicationContext applicationContext =
-				SpringApplication.run(SpringIn5StepsApplication.class, args);
+				SpringApplication.run(SpringIn5StepsBasicApplication.class, args);
 		BinarySearchImpl binarySearch =
 				applicationContext.getBean(BinarySearchImpl.class);
 		BinarySearchImpl binarySearch1 =
