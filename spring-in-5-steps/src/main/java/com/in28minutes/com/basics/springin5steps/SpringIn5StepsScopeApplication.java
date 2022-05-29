@@ -8,7 +8,6 @@ import org.springframework.context.ApplicationContext;
 
 import com.in28minutes.com.basics.springin5steps.scope.PersonDAO;
 
-
 @SpringBootApplication
 public class SpringIn5StepsScopeApplication {
 
