@@ -10,14 +10,20 @@ public class AssertTest {
 	public void test() {
 		boolean cond = true;
 		boolean fCond = false;
-		String s1 = null;
-		String s2 = "Hello";
 		assertEquals(1,1);
 		assertTrue(cond);
 		assertFalse(fCond);
+		
+		String s1 = null;
+		String s2 = "Hello";
 		assertNull(s1);
 		assertNotNull(s2);
 		assertNotEquals(1,2);
+		
+		int[] arr1 = new int[] {1,2,3};
+		int[] arr2 = new int[] {1,2,3};
+		assertArrayEquals(arr1, arr2);
+		
 	}
 
 }
