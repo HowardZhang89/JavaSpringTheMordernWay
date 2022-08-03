@@ -13,7 +13,7 @@ import org.springframework.test.context.ContextConfiguration;
 //Load the context
 @RunWith(SpringRunner.class)
 @ContextConfiguration(classes=SpringIn5StepsBasicApplication.class)
-public class BinarySearchTest {
+public class SomeCdiBusinessTest {
 	
 	//Get the bean from the context
 	@Autowired
