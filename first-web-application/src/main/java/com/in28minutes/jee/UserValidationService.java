@@ -1,4 +1,4 @@
-package com.in28minutes;
+package com.in28minutes.jee;
 
 public class UserValidationService {
 	
